@@ -1,4 +1,4 @@
-all: update_atom update_zsh update_hyper update_repo
+all: update_atom update_zsh update_hyper update_brew update_repo
 
 update_atom:
 	apm list --installed --bare > atom/packages.txt; \
@@ -12,3 +12,6 @@ update_hyper:
 
 update_repo:
 	git add -A && git commit -m "Config updated $(shell date +'%Y-%m-%d %Hh %Mm')" && git push origin master
+
+update_brew:
+	brew list --versions > homebrew_packages.txt
