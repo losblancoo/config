@@ -1,15 +1,7 @@
-bash-completion 1.3_3
-gdbm 1.18
-gettext 0.19.8.1
-git 2.18.0
-htop 2.2.0
-libidn2 2.0.5
-libunistring 0.9.10
-openssl 1.0.2p
-python 3.7.0
-readline 7.0.5
-sqlite 3.24.0
-wget 1.19.5
-xz 5.2.4
-zsh 5.5.1
-zsh-completions 0.28.0
+bash-completion
+git
+htop
+python
+wget
+zsh
+zsh-completions

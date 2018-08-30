@@ -2,8 +2,7 @@
 
 
 ### Homebrew
-* Homebrew packages **bash-completion git htop python wget zsh zsh-completions**
-
+* Install packages `cat homebrew_packages.txt | xargs brew install`
 
 ### Powerline fonts
 * Install

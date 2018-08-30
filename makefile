@@ -14,4 +14,4 @@ update_repo:
 	git add -A && git commit -m "Config updated $(shell date +'%Y-%m-%d %Hh %Mm')" && git push origin master
 
 update_brew:
-	brew list --versions > homebrew_packages.txt
+	brew leaves > homebrew_packages.txt
