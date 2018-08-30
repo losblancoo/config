@@ -1,0 +1,17 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "87f0a73e-45c2-4784-b511-4e0680b81f2d"
+  latex:
+    buildOnSave: true
+    engine: "xelatex"
+    opener: "pdf-view"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
