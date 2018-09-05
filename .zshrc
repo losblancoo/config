@@ -96,3 +96,23 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="atom ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Node version manager
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# Locales
+export LC_CTYPE="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
+# Pyenv
+eval "$(pyenv init -)"
+
+# Java env manager
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# colored cat
+alias cat=ccat
+
+alias hyperkeymap="ccat ~/.hyper/keymap.js"

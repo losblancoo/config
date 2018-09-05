@@ -1,7 +1,14 @@
 bash-completion
+ccat
+gdbm
 git
 htop
-python
+jenv
+nvm
+pyenv
+sqlite
 wget
+wifi-password
+xz
 zsh
 zsh-completions
