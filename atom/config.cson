@@ -1,12 +1,22 @@
 "*":
   core:
+    restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
     ]
+  editor: {}
   "exception-reporting":
     userId: "87f0a73e-45c2-4784-b511-4e0680b81f2d"
+  "ide-python":
+    pylsPlugins:
+      autopep8:
+        enabled: false
+      pycodestyle:
+        hangClosing: true
+      yapf:
+        enabled: true
   latex:
     buildOnSave: true
     engine: "xelatex"

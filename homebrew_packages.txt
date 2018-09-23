@@ -1,12 +1,12 @@
 bash-completion
 ccat
-gdbm
+gcc
 git
 htop
 jenv
+mercurial
 nvm
 pyenv
-sqlite
 wget
 wifi-password
 xz
